@@ -17,7 +17,7 @@ public class GlobalView extends JFrame {
         // Set a modern Look and Feel
         try {
             UIManager.setLookAndFeel(new NimbusLookAndFeel());
-        } catch (Exception e) {
+       } catch (Exception e) {
             e.printStackTrace();
         }
 
